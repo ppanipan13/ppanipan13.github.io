@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ppanipan13.github.io/</loc>
     <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ppanipan13.github.io/S__48545804.jpg</image:loc>
+      <image:title>Panipan Pansang maritime professional portrait</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ppanipan13.github.io/S__48545800.jpg</image:loc>
+      <image:title>Panipan Pansang at international maritime logistics conference</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ppanipan13.github.io/S__48545802.jpg</image:loc>
+      <image:title>Panipan Pansang on vessel deck with navigation equipment</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ppanipan13.github.io/S__48545803.jpg</image:loc>
+      <image:title>Panipan Pansang in maritime university uniform</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ppanipan13.github.io/#profile</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ppanipan13.github.io/#evidence</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ppanipan13.github.io/#experience</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ppanipan13.github.io/#credentials</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ppanipan13.github.io/#contact</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
