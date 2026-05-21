@@ -1,4 +1,4 @@
-# Panipan Pansang SEO Kit
+# Panipan Pansang
 
 This folder contains a publish-ready personal search profile for:
 
