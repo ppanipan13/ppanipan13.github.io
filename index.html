@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panipan Pansang | Maritime Founder, Operator, and Commercial Strategist</title>
+    <meta
+      name="description"
+      content="International portfolio of Panipan Pansang, maritime founder and executive focused on port logistics, marine surveying, vessel operations, project management, and maritime innovation."
+    >
+    <link rel="canonical" href="https://ppanipan13.github.io/">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Panipan Pansang | Maritime Founder and Executive">
+    <meta
+      property="og:description"
+      content="International portfolio of Panipan Pansang, founder of Seaborn Maritime Solutions."
+    >
+    <meta property="og:url" content="https://ppanipan13.github.io/">
+    <meta property="og:image" content="https://ppanipan13.github.io/digital-journal-panipan-pansang.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Panipan Pansang",
+        "alternateName": ["Panipan"],
+        "jobTitle": "Founder and Managing Director",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Seaborn Maritime Solutions",
+          "url": "https://www.seabornmaritime.com/"
+        },
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Kasetsart University"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Reformed University"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Georgia Institute of Technology"
+          }
+        ],
+        "knowsAbout": [
+          "Maritime infrastructure",
+          "Port logistics",
+          "Marine surveying",
+          "Vessel operations",
+          "Project management",
+          "Agile project management",
+          "Shipping operations",
+          "Maritime innovation"
+        ],
+        "url": "https://ppanipan13.github.io/",
+        "sameAs": [
+          "https://www.linkedin.com/in/panipanpansang",
+          "https://www.seabornmaritime.com/"
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #142026;
+        --muted: #5f6f78;
+        --line: #d7e0e4;
+        --paper: #f6f3ec;
+        --white: #ffffff;
+        --sea: #075b66;
+        --harbor: #0f3f4a;
+        --brass: #b8873d;
+        --green: #3f8f4d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      a {
+        color: inherit;
+        font-weight: 750;
+        text-decoration-color: rgba(7, 91, 102, 0.32);
+        text-underline-offset: 0.2em;
+      }
+
+      .shell {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+        background: rgba(20, 32, 38, 0.9);
+        color: var(--white);
+        backdrop-filter: blur(14px);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 64px;
+        gap: 20px;
+      }
+
+      .brand {
+        color: var(--white);
+        font-size: 0.96rem;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        justify-content: flex-end;
+      }
+
+      .nav-links a {
+        color: rgba(255, 255, 255, 0.88);
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .hero {
+        position: relative;
+        min-height: calc(100vh - 64px);
+        display: grid;
+        align-items: end;
+        padding: 92px 0 48px;
+        color: var(--white);
+        background:
+          linear-gradient(90deg, rgba(8, 21, 27, 0.92), rgba(8, 21, 27, 0.72) 42%, rgba(8, 21, 27, 0.15)),
+          url("panipan-pansang-hero.png");
+        background-color: var(--harbor);
+        background-position: center;
+        background-size: cover;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
+        align-items: end;
+        gap: 44px;
+      }
+
+      .eyebrow {
+        margin: 0 0 16px;
+        color: #f3d79b;
+        font-size: 0.86rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 900px;
+        margin: 0;
+        font-size: clamp(3rem, 8vw, 7.4rem);
+        line-height: 0.93;
+        letter-spacing: 0;
+      }
+
+      .dek {
+        max-width: 760px;
+        margin: 24px 0 0;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: clamp(1.08rem, 2vw, 1.36rem);
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 30px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 11px 16px;
+        border: 1px solid transparent;
+        background: var(--white);
+        color: var(--ink);
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .button.secondary {
+        border-color: rgba(255, 255, 255, 0.42);
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--white);
+      }
+
+      .profile-card {
+        background: rgba(255, 255, 255, 0.94);
+        color: var(--ink);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 18px;
+      }
+
+      .profile-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--line);
+      }
+
+      .profile-card p {
+        margin: 14px 0 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .section {
+        padding: 70px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .section-header {
+        display: grid;
+        grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+        gap: 40px;
+        margin-bottom: 30px;
+      }
+
+      .section-kicker {
+        margin: 0;
+        color: var(--brass);
+        font-size: 0.83rem;
+        font-weight: 850;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin: 0;
+        color: var(--harbor);
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      h3 {
+        margin: 0 0 8px;
+        color: var(--ink);
+        font-size: 1.12rem;
+      }
+
+      p {
+        margin: 0 0 14px;
+      }
+
+      .lead {
+        max-width: 850px;
+        color: #35444b;
+        font-size: 1.18rem;
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 1px solid var(--line);
+        background: var(--white);
+      }
+
+      .metric {
+        min-height: 130px;
+        padding: 22px;
+        border-right: 1px solid var(--line);
+      }
+
+      .metric:last-child {
+        border-right: 0;
+      }
+
+      .metric strong {
+        display: block;
+        color: var(--sea);
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        line-height: 1;
+      }
+
+      .metric span {
+        display: block;
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+
+      .card {
+        min-height: 100%;
+        padding: 22px;
+        border: 1px solid var(--line);
+        background: var(--white);
+      }
+
+      .card p {
+        color: var(--muted);
+      }
+
+      .tagline {
+        margin: 0 0 12px;
+        color: var(--brass);
+        font-size: 0.8rem;
+        font-weight: 850;
+        text-transform: uppercase;
+      }
+
+      .timeline {
+        display: grid;
+        gap: 14px;
+      }
+
+      .role {
+        display: grid;
+        grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+        gap: 24px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        background: var(--white);
+      }
+
+      .role time {
+        display: block;
+        color: var(--sea);
+        font-weight: 850;
+      }
+
+      .role .company {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .role ul,
+      .clean-list {
+        margin: 12px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+      }
+
+      .role li,
+      .clean-list li {
+        margin: 8px 0;
+      }
+
+      .split {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+        gap: 24px;
+        align-items: start;
+      }
+
+      .feature-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--line);
+        background: var(--white);
+      }
+
+      .cert-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+
+      .cert {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 164px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        background: var(--white);
+        text-decoration: none;
+      }
+
+      .cert span {
+        color: var(--muted);
+        font-size: 0.92rem;
+        font-weight: 650;
+      }
+
+      .cert strong {
+        display: block;
+        margin-top: 8px;
+        color: var(--ink);
+        font-size: 1.08rem;
+      }
+
+      .cert em {
+        margin-top: 18px;
+        color: var(--sea);
+        font-style: normal;
+        font-weight: 850;
+      }
+
+      .contact-band {
+        padding: 64px 0;
+        background: var(--harbor);
+        color: var(--white);
+      }
+
+      .contact-band h2 {
+        color: var(--white);
+      }
+
+      .contact-band p {
+        max-width: 720px;
+        color: rgba(255, 255, 255, 0.82);
+      }
+
+      .contact-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .contact-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 9px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        color: var(--white);
+        text-decoration: none;
+      }
+
+      footer {
+        padding: 22px 0;
+        background: #0d242b;
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 900px) {
+        .hero-grid,
+        .section-header,
+        .split,
+        .role {
+          grid-template-columns: 1fr;
+        }
+
+        .metrics,
+        .grid,
+        .cert-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .profile-card {
+          max-width: 420px;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .shell {
+          width: min(100% - 28px, 1180px);
+        }
+
+        .nav {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 14px 0;
+        }
+
+        .nav-links {
+          gap: 12px;
+        }
+
+        .hero {
+          padding: 56px 0 34px;
+        }
+
+        .hero-actions,
+        .contact-links {
+          flex-direction: column;
+        }
+
+        .button,
+        .contact-links a {
+          width: 100%;
+        }
+
+        .metrics,
+        .grid,
+        .cert-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .metric {
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+
+        .metric:last-child {
+          border-bottom: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="shell nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">Panipan Pansang</a>
+        <div class="nav-links">
+          <a href="#profile">Profile</a>
+          <a href="#experience">Experience</a>
+          <a href="#credentials">Credentials</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Panipan Pansang portfolio hero">
+        <div class="shell hero-grid">
+          <div>
+            <p class="eyebrow">Maritime founder | Operations | Port logistics</p>
+            <h1>Panipan Pansang</h1>
+            <p class="dek">
+              Maritime founder and operator connecting seagoing experience, marine surveying, commercial coordination, project management, and port logistics into practical solutions for international shipping.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="assets/documents/panipan-pansang-cv.pdf">Download CV</a>
+              <a class="button secondary" href="https://www.seabornmaritime.com/">Seaborn Maritime Solutions</a>
+              <a class="button secondary" href="https://www.linkedin.com/in/panipanpansang">LinkedIn</a>
+            </div>
+          </div>
+          <aside class="profile-card" aria-label="Digital Journal feature">
+            <img src="digital-journal-panipan-pansang.jpg" alt="Digital Journal feature image for Panipan Pansang" width="1080" height="1350">
+            <p>Featured by Digital Journal for the strategic ascent from cadet to CEO and a technology-forward maritime vision.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="profile" class="section">
+        <div class="shell">
+          <div class="section-header">
+            <p class="section-kicker">Executive Profile</p>
+            <div>
+              <h2>Built at the intersection of ships, ports, and strategy.</h2>
+              <p class="lead">
+                Panipan Pansang is the Founder and Managing Director of Seaborn Maritime Solutions. His work spans vessel operations, marine surveying, port coordination, ship supply, project execution, and commercial maritime services across Thai and U.S. shipping contexts.
+              </p>
+            </div>
+          </div>
+
+          <div class="metrics" aria-label="Professional highlights">
+            <div class="metric">
+              <strong>2025</strong>
+              <span>Founded Seaborn Maritime Solutions</span>
+            </div>
+            <div class="metric">
+              <strong>3+</strong>
+              <span>Core maritime roles across survey, deck, and commercial operations</span>
+            </div>
+            <div class="metric">
+              <strong>7</strong>
+              <span>Courses completed in Google Project Management Professional Certificate</span>
+            </div>
+            <div class="metric">
+              <strong>Global</strong>
+              <span>U.S. and Thailand maritime network focus</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="shell">
+          <div class="section-header">
+            <p class="section-kicker">Capabilities</p>
+            <h2>Operational credibility with commercial range.</h2>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <p class="tagline">Maritime Operations</p>
+              <h3>Vessel and bridge experience</h3>
+              <p>Deck watch, navigation support, cargo handling, emergency drills, safety inspections, and bridge/deck readiness under international maritime standards.</p>
+            </article>
+            <article class="card">
+              <p class="tagline">Survey and Compliance</p>
+              <h3>Inspection-minded execution</h3>
+              <p>Commercial vessel inspections, cargo condition verification, damage evaluation, regulatory checks, technical reporting, and safety-focused recommendations.</p>
+            </article>
+            <article class="card">
+              <p class="tagline">Port Logistics</p>
+              <h3>Coordination across stakeholders</h3>
+              <p>Port and anchorage deliveries, marine supply coordination, client relationships, berth coordination, and practical support for vessel calls and shipping operations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="shell">
+          <div class="section-header">
+            <p class="section-kicker">Experience</p>
+            <h2>A career path from inspection and deck operations to founder-level execution.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="role">
+              <div>
+                <time>May 2025 - Present</time>
+                <p class="company">Seaborn Maritime Solutions</p>
+              </div>
+              <div>
+                <h3>Founder and Managing Director</h3>
+                <p>Leads a maritime and logistics services company integrating field experience, technology, port coordination, vessel support, ship chandler services, technical supply, and green port initiatives.</p>
+                <ul>
+                  <li>Supports vessels docking in the United States with marine spare parts, repair equipment, and navigation support.</li>
+                  <li>Coordinates support for American shipping companies calling Thai ports, including Laem Chabang port relationships and berth coordination.</li>
+                  <li>Positions the company around safety, efficiency, environmental sustainability, and reliable maritime execution.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="role">
+              <div>
+                <time>Apr 2023 - Apr 2024</time>
+                <p class="company">Inter Marine Lube Company Limited</p>
+              </div>
+              <div>
+                <h3>Sales Engineer, Marine Area</h3>
+                <p>Coordinated marine lubricant and supply delivery for vessels at ports and anchorage areas as part of commercial and technical operations for a Chevron Thailand distributor.</p>
+                <ul>
+                  <li>Worked with client companies, logistics teams, and ship chief engineers to match lubricant specifications with vessel machinery requirements.</li>
+                  <li>Maintained client relationships, supported brand loyalty, and delivered against sales and service performance targets.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="role">
+              <div>
+                <time>Apr 2022 - Apr 2023</time>
+                <p class="company">Thoresen Thai Agencies Public Company Limited</p>
+              </div>
+              <div>
+                <h3>Deck Cadet Officer</h3>
+                <p>Supported bridge watch, navigation, communication, cargo handling, maintenance, safety inspections, emergency drills, documentation, and general onboard duties.</p>
+              </div>
+            </article>
+
+            <article class="role">
+              <div>
+                <time>Jan 2018 - Jul 2021</time>
+                <p class="company">Intertek Testing Services Thailand</p>
+              </div>
+              <div>
+                <h3>Marine Surveyor</h3>
+                <p>Performed commercial vessel inspections, verified cargo condition and documentation, evaluated vessel and cargo damage, prepared technical reports, and supported compliance with IMO, SOLAS, MARPOL, and ISM Code expectations.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="credentials" class="section">
+        <div class="shell">
+          <div class="section-header">
+            <p class="section-kicker">Credentials</p>
+            <h2>Project, process, agile, commercial, and maritime credentials.</h2>
+          </div>
+
+          <div class="cert-grid">
+            <a class="cert" href="assets/certificates/google-project-management.pdf">
+              <span>Issued May 17, 2026 | Coursera / Google</span>
+              <strong>Google Project Management Professional Certificate</strong>
+              <em>View certificate</em>
+            </a>
+            <a class="cert" href="assets/certificates/google-project-management-badge.pdf">
+              <span>Issued May 18, 2026 | Credly</span>
+              <strong>Google Project Management Professional Certificate Badge</strong>
+              <em>View badge</em>
+            </a>
+            <a class="cert" href="assets/certificates/six-sigma-yellow-belt.pdf">
+              <span>Granted Mar 27, 2026</span>
+              <strong>Six Sigma Yellow Belt</strong>
+              <em>View certificate</em>
+            </a>
+            <a class="cert" href="assets/certificates/scrum-fundamentals-certified.pdf">
+              <span>Granted Apr 1, 2026</span>
+              <strong>Scrum Fundamentals Certified</strong>
+              <em>View certificate</em>
+            </a>
+            <a class="cert" href="assets/certificates/corporate-sales-fundamentals.pdf">
+              <span>Granted Apr 15, 2026</span>
+              <strong>Corporate Sales Fundamentals</strong>
+              <em>View certificate</em>
+            </a>
+            <a class="cert" href="assets/certificates/kanban-essentials-ai-certified.pdf">
+              <span>Granted May 10, 2026</span>
+              <strong>Kanban Essentials with AI Certified</strong>
+              <em>View certificate</em>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="shell split">
+          <div>
+            <p class="section-kicker">Education and Memberships</p>
+            <h2>Maritime foundation with business expansion.</h2>
+            <ul class="clean-list">
+              <li>Master of Business Administration and Management, Reformed University, 2025 - Present</li>
+              <li>Second Language Learning, Georgia Institute of Technology, 2024 - 2025</li>
+              <li>Business Law, Marketing, and Natural Sciences certificates, TALK International, 2024</li>
+              <li>Bachelor of Science in Nautical Science, Kasetsart University, 2018 - 2022</li>
+            </ul>
+          </div>
+          <div class="card">
+            <p class="tagline">Professional Network</p>
+            <h3>Industry memberships</h3>
+            <ul class="clean-list">
+              <li>The Society of Naval Architects and Marine Engineers, active member, 2025 - 2026</li>
+              <li>Council of Supply Chain Management Professionals, active member, 2025 - 2026</li>
+              <li>The Propeller Club of the United States, Port of Savannah, active member, 2026 - 2027</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="shell split">
+          <div>
+            <p class="section-kicker">Publication and Media</p>
+            <h2>Thought leadership in maritime supply chains and innovation.</h2>
+            <p class="lead">
+              Panipan has published and participated in conversations around U.S. maritime supply chains, port operations, resilience, digitalization, sustainability, and public-private collaboration in maritime innovation.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="https://www.digitaljournal.com/pr/news/insights-news-wire/cadet-ceo-strategic-ascent-panipan-153399743.html">Digital Journal Feature</a>
+              <a class="button secondary" style="color: var(--ink); border-color: var(--line);" href="https://techbullion.com/how-panipan-pansang-is-elevating-port-logistics-through-ai-and-human-insight/">TechBullion Feature</a>
+              <a class="button secondary" style="color: var(--ink); border-color: var(--line);" href="https://amzn.eu/d/dMReQm3">Publication</a>
+            </div>
+          </div>
+          <img class="feature-image" src="digital-journal-panipan-pansang.jpg" alt="Digital Journal cover featuring Panipan Pansang" width="1080" height="1350">
+        </div>
+      </section>
+
+      <section id="contact" class="contact-band">
+        <div class="shell">
+          <p class="section-kicker">Contact</p>
+          <h2>Available for maritime partnerships, port coordination, speaking, and advisory conversations.</h2>
+          <p>
+            For business inquiries, media requests, maritime logistics coordination, or collaboration opportunities, connect through LinkedIn or Seaborn Maritime Solutions.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:panipanpansang@seabornmaritime.com">panipanpansang@seabornmaritime.com</a>
+            <a href="mailto:ppanipan13@gmail.com">ppanipan13@gmail.com</a>
+            <a href="https://www.linkedin.com/in/panipanpansang">LinkedIn</a>
+            <a href="assets/documents/panipan-pansang-cv.pdf">Download CV</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell">© 2026 Panipan Pansang. Maritime portfolio and professional profile.</div>
+    </footer>
+  </body>
+</html>
