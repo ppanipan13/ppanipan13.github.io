@@ -9,7 +9,7 @@
       content="Professional portfolio of Panipan Pansang, maritime founder and operator focused on port logistics, marine surveying, vessel operations, project management, and shipping innovation."
     >
     <link rel="canonical" href="https://ppanipan13.github.io/">
-    <link rel="preload" as="image" href="assets/images/panipan-conference-atrium.jpg">
+    <link rel="preload" as="image" href="S__48545804.jpg">
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Panipan Pansang | Maritime Founder and Port Logistics Strategist">
     <meta
@@ -17,7 +17,7 @@
       content="Professional portfolio of Panipan Pansang, Founder and Managing Director of Seaborn Maritime Solutions."
     >
     <meta property="og:url" content="https://ppanipan13.github.io/">
-    <meta property="og:image" content="https://ppanipan13.github.io/assets/images/panipan-conference-atrium.jpg">
+    <meta property="og:image" content="https://ppanipan13.github.io/S__48545804.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">
       {
@@ -149,21 +149,13 @@
         min-height: calc(100vh - 104px);
         align-items: end;
         overflow: hidden;
-        color: #fff;
+        color: var(--ink);
         background:
-          linear-gradient(90deg, rgba(5, 14, 20, 0.96), rgba(5, 14, 20, 0.78) 42%, rgba(5, 14, 20, 0.2)),
-          url("assets/images/panipan-conference-atrium.jpg");
-        background-position: 52% 34%;
+          linear-gradient(90deg, rgba(247, 248, 247, 0.94), rgba(247, 248, 247, 0.76) 48%, rgba(247, 248, 247, 0.18)),
+          linear-gradient(180deg, rgba(247, 248, 247, 0.06), rgba(247, 248, 247, 0.42)),
+          url("S__48545804.jpg");
+        background-position: center 58%;
         background-size: cover;
-      }
-
-      .hero::after {
-        position: absolute;
-        inset: auto 0 0;
-        height: 38%;
-        content: "";
-        background: linear-gradient(180deg, rgba(5, 14, 20, 0), rgba(5, 14, 20, 0.84));
-        pointer-events: none;
       }
 
       .hero-content {
@@ -175,7 +167,7 @@
 
       .eyebrow {
         margin: 0 0 18px;
-        color: #e8c88c;
+        color: var(--sea);
         font-size: 0.82rem;
         font-weight: 850;
         letter-spacing: 0;
@@ -191,7 +183,7 @@
       h1 {
         max-width: 820px;
         margin: 0;
-        color: #fff;
+        color: var(--ink);
         font-size: 5.7rem;
         line-height: 0.94;
       }
@@ -199,7 +191,7 @@
       .dek {
         max-width: 760px;
         margin: 24px 0 0;
-        color: rgba(255, 255, 255, 0.86);
+        color: #26343c;
         font-size: 1.28rem;
         line-height: 1.62;
       }
@@ -220,17 +212,17 @@
         padding: 10px 16px;
         border: 1px solid transparent;
         border-radius: 8px;
-        background: #fff;
-        color: var(--ink);
+        background: var(--navy);
+        color: #fff;
         font-size: 0.96rem;
         font-weight: 830;
         text-decoration: none;
       }
 
       .button.secondary {
-        border-color: rgba(255, 255, 255, 0.26);
-        background: rgba(255, 255, 255, 0.08);
-        color: #fff;
+        border-color: rgba(13, 45, 58, 0.18);
+        background: rgba(255, 255, 255, 0.7);
+        color: var(--ink);
       }
 
       .trust {
@@ -352,7 +344,7 @@
 
       .proof-gallery {
         display: grid;
-        grid-template-columns: 1.15fr 0.85fr 1fr;
+        grid-template-columns: 1.05fr 1fr 0.95fr 1fr;
         gap: 14px;
       }
 
@@ -378,6 +370,10 @@
         object-position: 50% 24%;
       }
 
+      .proof-item.conference img {
+        object-position: 50% 28%;
+      }
+
       .proof-item.uniform img {
         object-position: 50% 14%;
       }
@@ -390,6 +386,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
+      }
+
+      .grid.four {
+        grid-template-columns: repeat(4, 1fr);
       }
 
       .card,
@@ -485,6 +485,43 @@
         align-items: start;
       }
 
+      .press-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        margin-top: 24px;
+      }
+
+      .press-card {
+        min-height: 230px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        text-decoration: none;
+      }
+
+      .press-card span {
+        display: block;
+        color: var(--copper);
+        font-size: 0.78rem;
+        font-weight: 850;
+        text-transform: uppercase;
+      }
+
+      .press-card strong {
+        display: block;
+        margin-top: 14px;
+        color: var(--ink);
+        font-size: 1.3rem;
+        line-height: 1.18;
+      }
+
+      .press-card p {
+        margin-top: 14px;
+        color: var(--muted);
+      }
+
       .feature-image {
         display: block;
         width: 100%;
@@ -533,7 +570,7 @@
         padding: 78px 0;
         background:
           linear-gradient(90deg, rgba(9, 25, 31, 0.94), rgba(9, 25, 31, 0.78)),
-          url("assets/images/panipan-vessel-deck.jpg");
+          url("S__48545802.jpg");
         background-position: center 28%;
         background-size: cover;
         color: #fff;
@@ -581,7 +618,9 @@
 
         .trust-grid,
         .grid,
-        .cert-grid {
+        .grid.four,
+        .cert-grid,
+        .press-grid {
           grid-template-columns: repeat(2, 1fr);
         }
 
@@ -618,7 +657,7 @@
 
         .hero {
           min-height: calc(100vh - 160px);
-          background-position: 52% 18%;
+          background-position: 50% 54%;
         }
 
         .hero-content {
@@ -650,7 +689,9 @@
 
         .trust-grid,
         .grid,
+        .grid.four,
         .cert-grid,
+        .press-grid,
         .proof-gallery {
           grid-template-columns: 1fr;
         }
@@ -699,10 +740,10 @@
       <section class="hero" aria-label="Panipan Pansang portfolio hero">
         <div class="shell">
           <div class="hero-content">
-            <p class="eyebrow">Maritime founder | Port logistics | Vessel operations</p>
+            <p class="eyebrow">Maritime Founder | Port Logistics | Vessel Operations</p>
             <h1>Panipan Pansang</h1>
             <p class="dek">
-              A maritime founder shaped by vessel decks, marine surveying, port coordination, and commercial execution, building practical solutions for international shipping.
+              Operating at the intersection of ships, ports, and business execution. With experience spanning vessel operations, marine surveying, port coordination, and maritime logistics, he focuses on building practical, field-driven solutions for international shipping and commercial maritime operations.
             </p>
             <div class="hero-actions">
               <a class="button" href="assets/documents/panipan-pansang-cv.pdf">Download CV</a>
@@ -747,7 +788,7 @@
             </p>
           </div>
           <figure class="portrait-panel">
-            <img src="assets/images/panipan-digital-journal-building.jpg" alt="Panipan Pansang outside the building used in a Digital Journal feature" width="1108" height="1477" loading="lazy">
+            <img src="S__48545804.jpg" alt="Panipan Pansang outside the building used in a Digital Journal feature" width="1108" height="1477" loading="lazy">
             <figcaption class="caption">Featured profile presence connected to maritime leadership, technology, and founder-level execution.</figcaption>
           </figure>
         </div>
@@ -765,14 +806,17 @@
             </div>
           </div>
           <div class="proof-gallery">
+            <figure class="proof-item conference">
+              <img src="S__48545800.jpg" alt="Panipan Pansang attending an international logistics conference" width="960" height="1706" loading="lazy">
+            </figure>
             <figure class="proof-item deck">
-              <img src="assets/images/panipan-vessel-deck.jpg" alt="Panipan Pansang on a vessel deck with navigation equipment" width="1108" height="1477" loading="lazy">
+              <img src="S__48545802.jpg" alt="Panipan Pansang on a vessel deck with navigation equipment" width="1108" height="1477" loading="lazy">
             </figure>
             <figure class="proof-item uniform">
-              <img src="assets/images/panipan-maritime-uniform.jpg" alt="Panipan Pansang in maritime university uniform" width="1134" height="1444" loading="lazy">
+              <img src="S__48545803.jpg" alt="Panipan Pansang in maritime university uniform" width="1134" height="1444" loading="lazy">
             </figure>
             <figure class="proof-item building">
-              <img src="assets/images/panipan-mercedes-benz-stadium.jpg" alt="Panipan Pansang at Mercedes-Benz Stadium during a professional event" width="1350" height="1800" loading="lazy">
+              <img src="S__48545804.jpg" alt="Panipan Pansang outside an international business setting" width="1108" height="1477" loading="lazy">
             </figure>
           </div>
         </div>
@@ -784,7 +828,7 @@
             <p class="section-kicker">Operating Lens</p>
             <h2>Commercial discipline grounded in field experience.</h2>
           </div>
-          <div class="grid">
+          <div class="grid four">
             <article class="card">
               <p class="tagline">Maritime Operations</p>
               <h3>Vessel and bridge experience</h3>
@@ -799,6 +843,11 @@
               <p class="tagline">Port Logistics</p>
               <h3>Coordination across stakeholders</h3>
               <p>Port and anchorage deliveries, marine supply coordination, client relationships, berth coordination, and practical support for vessel calls and shipping operations.</p>
+            </article>
+            <article class="card">
+              <p class="tagline">Technology & Operational Systems</p>
+              <h3>Technology-supported operational efficiency</h3>
+              <p>Familiar with digital coordination tools, reporting systems, operational documentation, and technology-driven workflows supporting maritime and business operations.</p>
             </article>
           </div>
         </div>
@@ -942,10 +991,42 @@
             <p class="lead">
               Panipan has published and participated in conversations around U.S. maritime supply chains, port operations, resilience, digitalization, sustainability, and public-private collaboration in maritime innovation.
             </p>
-            <div class="hero-actions">
-              <a class="button" href="https://www.digitaljournal.com/pr/news/insights-news-wire/cadet-ceo-strategic-ascent-panipan-153399743.html">Digital Journal Feature</a>
-              <a class="button secondary" href="https://techbullion.com/how-panipan-pansang-is-elevating-port-logistics-through-ai-and-human-insight/">TechBullion Feature</a>
-              <a class="button secondary" href="https://amzn.eu/d/dMReQm3">Publication</a>
+            <div class="press-grid">
+              <a class="press-card" href="https://techbullion.com/how-panipan-pansang-is-elevating-port-logistics-through-ai-and-human-insight/">
+                <span>TechBullion | July 19, 2025</span>
+                <strong>Elevating Port Logistics Through AI and Human Insight</strong>
+                <p>A feature on technology-supported maritime operations, AI-enabled coordination, and the role of practical judgment in port logistics.</p>
+              </a>
+              <a class="press-card" href="https://www.digitaljournal.com/pr/news/insights-news-wire/cadet-ceo-strategic-ascent-panipan-153399743.html">
+                <span>Digital Journal</span>
+                <strong>From Cadet to CEO: The Strategic Ascent of Panipan Pansang</strong>
+                <p>A profile tracing the transition from maritime training and operational exposure to founder-level leadership.</p>
+              </a>
+              <a class="press-card" href="https://www.amazon.in/FUTURE-MARITIME-SUPPLY-CHAINS-OPERATIONS-ebook/dp/B0G7PDFKNY">
+                <span>Published Work | Amazon Kindle</span>
+                <strong>The Future of Maritime Supply Chains and Port Operations</strong>
+                <p>A book focused on resilience, digitalization, and sustainable thinking across maritime supply chains and port operations.</p>
+              </a>
+              <a class="press-card" href="https://www.msn.com/en-us/money/technology/from-cadet-to-ceo-the-strategic-ascent-of-panipan-pansang/ar-AA21Ps4R">
+                <span>MSN | Syndicated Feature</span>
+                <strong>From Cadet to CEO: The Strategic Ascent of Panipan Pansang</strong>
+                <p>A wider media placement connecting Panipan's maritime training, operational experience, and founder journey.</p>
+              </a>
+              <a class="press-card" href="https://www.linkedin.com/pulse/tactical-risk-management-high-risk-maritime-corridors-panipan-pansang-2ljse/">
+                <span>LinkedIn Article</span>
+                <strong>Tactical Risk Management in High-Risk Maritime Corridors</strong>
+                <p>Thought leadership on maritime risk, route exposure, operational decision-making, and practical risk controls in complex shipping corridors.</p>
+              </a>
+              <a class="press-card" href="https://seabornmaritime.com/blog/f/when-maritime-regulation-becomes-a-national-economic-tool">
+                <span>Seaborn Maritime Article</span>
+                <strong>When Maritime Regulation Becomes a National Economic Tool</strong>
+                <p>Analysis on how maritime regulation can shape national competitiveness, trade strategy, and economic positioning.</p>
+              </a>
+              <a class="press-card" href="https://seabornmaritime.com/blog/f/innovative-maritime-solutions-enhancing-efficiency-and-safety">
+                <span>Seaborn Maritime Article</span>
+                <strong>Innovative Maritime Solutions: Enhancing Efficiency and Safety</strong>
+                <p>Thought leadership on practical maritime innovation, safer operations, and efficiency gains across shipping and port support workflows.</p>
+              </a>
             </div>
           </div>
           <img class="feature-image" src="digital-journal-panipan-pansang.jpg" alt="Digital Journal cover featuring Panipan Pansang" width="1080" height="1350" loading="lazy">
